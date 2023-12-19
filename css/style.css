@@ -1,0 +1,51 @@
+body { padding-top: 0px; }
+.container-fluid {
+    background-color: brown;
+}
+.column{
+    padding: 25px;
+    background-color: #a6a7a9;
+    
+}
+.column-title h1,h3{
+    color: #000 !important;
+    text-align: center;
+    font-weight: 600;
+}
+.column{
+    text-align: justify;
+}
+button.navbar-toggle.collapsed {
+    margin-top: 20px !important;
+}
+.nav>li {
+    border-bottom: 2px solid #000 !important;
+}
+.navbar-nav {
+    margin: 0px !important;
+}
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.navbar-collapse {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+.navbar-header{
+    float: left !important;
+padding-left: 20px !important;
+}
+h1{
+    color: #fff !important;
+}
+.nav>li {
+    text-align: center !important;
+}
+@media only screen and (min-width: 768px){
+    .navbar-right {
+        display: none !important;
+}
+    
+}
